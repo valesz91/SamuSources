@@ -61,7 +61,9 @@ def main():
     inp = str(sys.argv[1])
     print inp
     global same
-    output=open(inp , 'r')    
+    output=open(inp , 'r')
+    inputFile=open(inp, 'r')
+    
     g=open('bbe', 'w')
     data=output.read()
     f=open('out.txt', 'w')
